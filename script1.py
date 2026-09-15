@@ -4,13 +4,13 @@
 # Press Double ⇧ to search everywhere for classes, files, tool window
 
 
-name: str = input("Please enter your name:")
+name = input("Please enter your name:")
 print("Hello""," + name)
 
-num1: str = input(int("Please enter the first variable:"))
+num1 = input(int("Please enter the first variable:"))
 # Use a breakpoint in the code line below to debug your script.
 
-opp: str = input("Order of operation?:* or /?")
+opp = input("Order of operation?:* or /?")
 
 num2 = input(int("Please enter the second variable:"))
 ans = eval(num1 + opp + num2)
