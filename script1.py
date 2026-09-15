@@ -6,5 +6,6 @@ opp = input("Order of operation?: * or /")
 num2 = int(input("Please enter the second variable:"))
 ans = eval(str(num1) + opp + str(num2))
 
-print("The answer to your query is:", ans)
+print("The answer to your query is:", str(num1) , opp , str(num2),"=", ans)
+
   
