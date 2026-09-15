@@ -4,6 +4,7 @@ print("Hello, " + name)
 num1 = int(input("Please enter the first variable:"))
 opp = input("Order of operation?: * or /")
 num2 = int(input("Please enter the second variable:"))
-ans = eval(num1 + opp + num2)
+ans = eval(str(num1) + opp + str(num2))
 
 print("The answer to your query is:", ans)
+  
